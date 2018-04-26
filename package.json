@@ -1,27 +1,22 @@
 {
   "name": "node-js-sample",
-  "version": "0.0.1",
-  "description": "a sample node.js app for heroku",
+  "version": "0.9.0",
+  "description": "A sample node.js app for heroku",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "2.5.x"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "express": "^4.16.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/heroku/node-js-sample"
   },
-  "keywords": [
-    "node",
-    "heroku"
-  ],
   "author": "Mark Pundsack",
   "license": "BSD",
-  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21"
+  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21",
+  "devDependencies": {
+    "heroku": "^7.0.15"
+  }
 }
